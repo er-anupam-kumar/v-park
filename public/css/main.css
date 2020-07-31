@@ -1,0 +1,33 @@
+/*.soundbar {
+	background-color: #CCC;
+	height: 20px;
+	width: 100%;
+	position: relative;
+}
+
+.currentVolume {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 0;
+	height: 20px;
+	background-color: green;
+}
+*/
+
+.videos {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.videos > div {
+	width: auto;
+}
+
+video {
+	width: 300px !important;
+	height: 225px !important;
+	border: 5px solid #ddd;
+	box-shadow: 1px 2px 7px #000;
+	margin: 10px;
+}
